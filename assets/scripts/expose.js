@@ -49,7 +49,7 @@ function init() {
         audimg.setAttribute('src', 'assets/icons/volume-level-0.svg');
       }else if(slider.value < 33){
         audimg.setAttribute('src', 'assets/icons/volume-level-1.svg');
-      }else if(slider.value<67){
+      }else if(slider.value < 67){
         audimg.setAttribute('src','assets/icons/volume-level-2.svg');
       }else{
         audimg.setAttribute('src','assets/icons/volume-level-3.svg');
